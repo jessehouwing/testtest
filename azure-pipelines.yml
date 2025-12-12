@@ -24,5 +24,5 @@ stages:
       runOnce:
         deploy:
           steps:
-          - checkout: 
+          - checkout: self
           - script: echo Hello world
